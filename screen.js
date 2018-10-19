@@ -2,7 +2,7 @@ $(function() {
   var today = new Date();
   var ss = today.getSeconds();
   var nn = today.getMinutes() - 3; //1 minute delay
-  var hh = today.getHours() - 2;
+  var hh = today.getHours();
   var dd = today.getDate();
   var mm = today.getMonth() + 1; //January is 0!
   var yyyy = today.getFullYear();
