@@ -2,8 +2,8 @@ $(function() {
   var today = new Date();
   var ss = today.getSeconds();
   var nn = today.getMinutes() - 3; //1 minute delay
-  var hh = today.getHours();
-  var dd = today.getDate() - 1;
+  var hh = today.getUTCHours() -6;
+  var dd = today.getDate();
   var mm = today.getMonth() + 1; //January is 0!
   var yyyy = today.getFullYear();
   if (dd < 10) {
